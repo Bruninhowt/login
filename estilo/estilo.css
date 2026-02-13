@@ -28,6 +28,7 @@ section{
 }
 
 section#login > div#imagem{
+    display: block;
     background: rgb(94, 25, 159) url(../imagens/pexels-diogo-miranda-2044514-27814117.jpg);
     height: 180px;
     background-position: center center;
@@ -45,6 +46,13 @@ section#login > div#formulario > h1{
 section#login > div#formulario > p{
     padding: 5px;
     text-align: justify;
+}
+
+div#formulario .campo{
+    background-color: rgb(66, 17, 111);
+    border-radius: 10px;
+    padding: 5px;
+    color:white;
 }
 
 #botoes{

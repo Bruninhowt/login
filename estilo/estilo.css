@@ -55,13 +55,17 @@ div#formulario .campo{
     color:white;
 }
 
+div.campo > label{
+    display: none;
+}
+
 #botoes{
     text-align: center;
 }
 
 input[type="text"],
 input[type="password"]{
-    width: 90%;
+    width: calc(100% - 29px);
     padding: 10px;
     margin-top: 5px;
     border-radius: 8px;
@@ -70,7 +74,7 @@ input[type="password"]{
 }
 
 input[type="submit"]{
-    padding: 5px;
+    padding: 10px;
     margin-top: 8px;
     background-color: rgb(94, 25, 159);
     border-radius: 10px;
@@ -78,7 +82,7 @@ input[type="submit"]{
 }
 
 input[type="reset"]{
-    padding: 5px;
+    padding: 10px;
     margin-top: 8px;
     background-color: #ccc;
     border-radius: 10px;

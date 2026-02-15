@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tela de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"rel="stylesheet" />
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/midea-queries.css">
 </head>
@@ -17,12 +18,14 @@
             <p>Seja bem vindo(a), faça seu login e prossiga para as configurações do seu ambiente</p>
             <form action="login.php" method="post"> 
                 <div class="campo">
-                    <label for="inome">Nome: </label>
+                    <span class="material-symbols-outlined">person</span>
                     <input type="text" name="Nome" id="inome" required>
+                    <label for="inome">Nome: </label>
                 </div>
                 <div class="campo">
-                    <label for="isenha">Senha:</label>
+                    <span class="material-symbols-outlined">vpn_key</span>
                     <input type="password" name="senha" id="isenha"required minlength="5" maxlength="15">
+                    <label for="isenha">Senha:</label>
                 </div>
                 <div id="botoes">
                     <input  type="submit" value="Enviar">
